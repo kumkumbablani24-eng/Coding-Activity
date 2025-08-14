@@ -8,7 +8,7 @@ class Solution {
         reverse(nums , k , n-1);
     }
 
-    public void reverse(int[] arr , int start , int end){
+    private void reverse(int[] arr , int start , int end){
         while(start < end){
             int temp = arr[start];
             arr[start] = arr[end];
